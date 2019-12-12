@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-image: url('3ZuA.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+nav{
+  background-image: linear-gradient(to bottom right, #0f2838 , #163548);  height: 100px;
+  /* padding: 20px; */
+
+}
+#topNav  div {
+  display: inline-block;
+  /* border: 1px solid green; */
+  vertical-align: top;
+}
+
+
+#rightNav {
+  display: inline-block;
+  text-align: right;
+  width: 80%;
+  padding-right: 60px;
+  box-sizing: border-box;
+
+}
+
+#rightNav li {
+  display: inline-block;
+  /* padding-right: 20px; */
+  text-align: right;
+
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Lilita One', cursive;
+  font-size: 40px;
+
+}
+
+li a:hover {
+  background-color: #10e4e5;
+}
+
+
+
+#navLeft{
+  font-size: 90px;
+  padding-left: 60px;
+  color: white;
+  /* display: inline-block; */
+  /* margin-left: 60px; */
+  font-family: 'Lilita One', cursive;
+  width: 20%;
+
+}
+
+.row{
+  display: flex;
+}
+
+.gameBox{
+  background-color: #10e4e5;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+}
+
+.box{
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  display:inline-block;
+  line-height: 100px;
+  text-align: center;
+  font-size: 60pt;
+  font-family: 'Lilita One', cursive;
+
+}
+
+.insults {
+  background-color: #0f2838;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  font-family: 'Lilita One', cursive;
+  width: 300px;
+  height: 100px;
+
+}
+
+.playerTwoButton {
+  background-color: #0f2838;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 50px;
+  font-family: 'Lilita One', cursive;
+
+}
+
+/* #reset {
+  background-color: #0f2838;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 460px;
+  margin-bottom: 10px;
+  font-family: 'Lilita One', cursive;
+
+} */
+
+#title {
+  color: #0f2838;
+  font-family: 'Lilita One', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+iframe{
+  margin: 0 auto;
+  height: 415px;
+  width: 760px;
+  display: flex;
+  margin-top: 90px;
+
+}
