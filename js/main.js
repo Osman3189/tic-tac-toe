@@ -20,7 +20,7 @@ $('.box').on('mouseout', function(){
 
 
 $('#reset').on('click', function(){
-  $('.box').empty() && $('#title').empty();
+  $('.box').empty() && $('#title').html("Tic Tac Toe");
 });
 
 
@@ -29,7 +29,7 @@ $('#reset').on('click', function(){
 $('.box').on('click', function(){
 
   if( $(this).html() !== '' ){
-    return;  // leave function early, i.e. don't process the click
+    return;  // leave function early
   }
 
   turnCounter++;

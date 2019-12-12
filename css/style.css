@@ -10,14 +10,13 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
 }
 
 nav{
   background-image: linear-gradient(to bottom right, #0f2838 , #163548);  height: 100px;
   /* padding: 20px; */
-
 }
+
 #topNav  div {
   display: inline-block;
   /* border: 1px solid green; */
@@ -31,16 +30,14 @@ nav{
   width: 80%;
   padding-right: 60px;
   box-sizing: border-box;
-
 }
 
 #rightNav li {
   display: inline-block;
   /* padding-right: 20px; */
   text-align: right;
-
-
 }
+
 
 li a {
   display: block;
@@ -50,8 +47,8 @@ li a {
   text-decoration: none;
   font-family: 'Lilita One', cursive;
   font-size: 40px;
-
 }
+
 
 li a:hover {
   background-color: #10e4e5;
@@ -67,12 +64,12 @@ li a:hover {
   /* margin-left: 60px; */
   font-family: 'Lilita One', cursive;
   width: 20%;
-
 }
 
 .row{
   display: flex;
 }
+
 
 .gameBox{
   background-color: #10e4e5;
@@ -80,6 +77,7 @@ li a:hover {
   height: 300px;
   width: 300px;
 }
+
 
 .box{
   border-style: solid;
@@ -93,8 +91,9 @@ li a:hover {
   text-align: center;
   font-size: 60pt;
   font-family: 'Lilita One', cursive;
-
 }
+
+
 
 .insults {
   background-color: #0f2838;
@@ -106,7 +105,6 @@ li a:hover {
   font-family: 'Lilita One', cursive;
   width: 300px;
   height: 100px;
-
 }
 
 .playerTwoButton {
@@ -118,21 +116,8 @@ li a:hover {
   font-size: 15px;
   margin-left: 50px;
   font-family: 'Lilita One', cursive;
-
 }
 
-/* #reset {
-  background-color: #0f2838;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  margin-left: 460px;
-  margin-bottom: 10px;
-  font-family: 'Lilita One', cursive;
-
-} */
 
 #title {
   color: #0f2838;
@@ -142,11 +127,10 @@ li a:hover {
   margin-top: 60px;
 }
 
-iframe{
+iframe {
   margin: 0 auto;
   height: 415px;
   width: 760px;
   display: flex;
   margin-top: 90px;
-
 }

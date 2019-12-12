@@ -1,6 +1,6 @@
-#Tic Tac Toe
+# Tic Tac Toe
 
-Steps to think about.
+#### Steps to think about.
 
 1. There are two players X and O.
 2. They both need to take turns making a move.
@@ -26,5 +26,5 @@ Created 2 click listeners
 2. If player wants to reset the game they don't have to refresh the page, by clicking New Game, the click listener should clear all the boxes.
 
 
-To play the game:
+Project Link:
 https://osman3189.github.io/tic-tac-toe/
