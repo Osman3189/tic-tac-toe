@@ -1,4 +1,3 @@
-console.log("Tic Tac Toe");
 
 let playerOne = "X";
 let playerTwo = "O";
@@ -124,39 +123,4 @@ $('.box').on('click', function(){
 // $('#box5').trigger('click');
 // $('#box6').trigger('click');
 //
-// $('#box7').trigger('click');
-
-
-//Win logic
-//
-// Winning Combinations
-//
-//   Horizontal
-//   0 1 2
-//   3 4 5
-//   6 7 8
-//
-//   Vertical
-//   0 3 6
-//   1 4 7
-//   2 5 8
-//
-//   Diagonal
-//   0 4 8
-//   2 4 6
-//
-//   After every time someone makes a move
-//   Check all winning combinations for a winner
-//   e.g. Do box 0, box 1 and box 2 all contain "X"?
-//         If they do, X wins
-  // const boxes = document.getElementsByClassName("box");
-
-
-
-
-// for (var i = 0; i < boxes.length; i++) {
-//   console.log(boxes[i]);
-// };
-
-//
-// const winningCombinations = [ box0 && box1 && box2 || box3 && box4 && box5 || box6 && box7 && box8 || box0 && box3 && box6 || box1 && box4 && box7 || box2 && box5 && box8 || box0 && box4 && box8 || box2 && box4 && box6 ]
+// // $('#box7').trigger('click');
