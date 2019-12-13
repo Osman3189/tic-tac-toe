@@ -20,6 +20,7 @@ $('.box').on('mouseout', function(){
 
 $('#reset').on('click', function(){
   $('.box').empty() && $('#title').html("Tic Tac Toe") && $('.insults').html("Lets go again");
+ turnCounter = 0;
 });
 
 
