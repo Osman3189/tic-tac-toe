@@ -124,7 +124,7 @@ li a:hover {
   font-family: 'Lilita One', cursive;
   font-size: 50px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 iframe {
@@ -133,4 +133,16 @@ iframe {
   width: 760px;
   display: flex;
   margin-top: 90px;
+}
+
+
+footer {
+  background-image: linear-gradient(to bottom right, #0f2838 , #163548);  height: 100px;
+  margin-top: 170px;
+  color: white;
+  font-family: 'Lilita One', cursive;
+  font-size: 20px;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 40px;
 }
