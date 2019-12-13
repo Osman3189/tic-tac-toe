@@ -138,11 +138,16 @@ iframe {
 
 footer {
   background-image: linear-gradient(to bottom right, #0f2838 , #163548);  height: 100px;
-  margin-top: 170px;
+  /* margin-top: 170px; */
   color: white;
   font-family: 'Lilita One', cursive;
   font-size: 20px;
   text-align: left;
   vertical-align: bottom;
   padding: 40px;
+
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 6.5rem;
 }
